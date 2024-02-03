@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%-include('../partials/nav.ejs')%>
+    <h2> welcome to student form</h2>
+    <form action="" method="post"  enctype="multipart/form-data">
+        <label for=""> Student Name</label>
+        <input type="text" name="sname" id="">
+        <label for=""> Student class</label>
+        <input type="text" name="sclass" id="">
+        <label for=""> Student rollno</label>
+        <input type="text" name="srollno" id="">
+        <label for=""> Student marks</label>
+        <input type="text" name="smark" id="">
+        <label for="">student image</label>
+        <input type="file" name="img" id="">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

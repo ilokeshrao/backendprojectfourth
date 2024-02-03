@@ -1,0 +1,26 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">col1</div>
+            <div class="col-md-8">
+                <ul>
+                    <%if(loginname){%>
+                    <li><a href="/home1">Home</a></li>
+                    <li><a href="/studentform">student form</a></li>
+                    <li><a href="/studentdata">student Data</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                    <li><button><%=loginname%></button></li>
+                    <%}else{%>
+                    <li><a href="login">login</a></li>
+                    <%}%>
+                
+
+
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,135 @@
+
+#header{
+    background: linear-gradient(to right, rgb(5,15,130),rgb(2,6,61));
+}
+#header img{
+    width: 100px;
+    border-radius: 10px;
+    border: 0px solid red;
+    box-shadow: 10px 10px black;
+}
+#header .bi-list{
+    color: white;
+    font-size: 30px;
+}
+#header ul li a{
+    color: white;
+    transition-property: color;
+    transition-duration: 2s;
+}
+#header ul li a:hover{
+    color: yellow;
+}
+#header .navbar-toggler{
+    border: 2px solid white;
+}
+#banner{
+    background: linear-gradient(to right, rgb(5,15,130),rgb(2,6,61));
+  padding: 30px 0px;
+}
+#banner h4{
+    text-align: center;
+    color: whitesmoke;
+}
+#banner p{
+    color: whitesmoke;
+    text-align: justify;
+}
+#banner img{
+    border-radius: 50%;
+}
+#service h3{
+    /* background: #202; */
+ text-align: center;
+}
+#service{
+    background: linear-gradient(to right, rgba(208, 211, 212),rgb(247, 249, 249));
+    padding: 20px 0px;
+}
+#testi h3{
+    text-align: center;
+    color: whitesmoke;
+}
+#testi{
+    background: linear-gradient(to right, rgb(5,15,130),rgb(2,6,61));
+    padding: 30px 0px;
+
+}
+#testi{
+    padding-bottom: 50px;
+}
+#testi img{
+    width: 200px;
+    
+}
+#testi span{
+    color: black;
+}
+#testi  .bi-buildings{
+    font-size: 50px;
+}
+#testi h3{
+    margin-bottom: 30px;
+}
+#testi p{
+    text-align: justify;
+    color: blue ;
+}
+#testi .card{
+    border: none;
+    border-radius: 30px;
+}
+#testi h5{
+    text-align: center;
+}
+#profile h5{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Instrument Serif', serif;
+}
+#profile{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, rgb(248, 249, 247),rgb(9, 27, 1));
+
+}
+#profile h2{
+ text-align: center;
+ margin-bottom: 20px;
+}
+#profile img{
+    width: 137px;
+}
+#profile .card{
+    margin-right: 20px;
+}
+#footer{
+    background: linear-gradient(to right, rgb(5,15,130),rgb(2,6,61));
+    padding-bottom: 20px;
+}
+#footer img{
+    width: 70px;
+    margin-bottom: 10px;
+    
+}
+#footer p{
+    color: whitesmoke;
+    text-align: justify;
+    font-family: 'Instrument Serif', serif;
+
+}
+#footer h2{
+    color: whitesmoke;
+    font-family: 'Instrument Serif', serif;
+
+}
+#footer table tr td i{
+    color: whitesmoke;
+    margin-right: 5px;
+}
+#footer table tr {
+    display: flex;
+}
+#footer table tr td p{
+    margin-right: 3px;
+}

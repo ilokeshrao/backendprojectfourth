@@ -1,0 +1,2 @@
+font-family: 'Instrument Serif', serif;
+font-family: 'Bruno Ace SC', cursive;
